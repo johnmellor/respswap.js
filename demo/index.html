@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script defer src="../respswap.js"></script>
+	<style>
+	.div1 {
+		height: 480px;
+		background: url(dragonfly-184165@160w.jpg) no-repeat;
+		background-size: 640px;
+	}
+	.div2 {
+		height: 480px;
+		background: url(dragonfly-184165@160w.jpg) no-repeat;
+		background-size: contain;
+	}
+	</style>
+</head>
+<body>
+	<h1>Without respswap.js:</h1>
+	<img src="dragonfly-184165@160w.jpg" width="640">
+	<div class="div1"></div>
+	<div class="div2"></div>
+	<h1>With respswap.js:</h1>
+	<img src="dragonfly-184165@160w.jpg" width="640" class="respswap">
+	<div class="div1 respswap"></div>
+	<div class="div2 respswap"></div>
+</body>
+</html>
